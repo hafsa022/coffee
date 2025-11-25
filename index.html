@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="so">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CoffeeMate — Simple (No CSS)</title>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Coffee Mate</h1>
+      <nav>
+        <a href="#home">Home</a> |
+        <a href="#products">Products</a> |
+        <a href="#features">Features</a> |
+        <a href="#reviews">Reviews</a> |
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO (uses the uploaded image file path below) -->
+  <main>
+    <section id="home">
+      <h2>Evolution Of Mindful Organic Coffee Mate</h2>
+      <p>The midnight mint cappuccino features extra dark cocoa blends with roast coffee.</p>
+
+      <!-- <-- local image path from your upload --> -->
+      <img src="/mnt/data/Screenshot_20251015_123741_TikTok.jpg" alt="Coffee hero screenshot" style="max-width:90%;height:auto;display:block;margin:10px 0;">
+
+      <p><strong>Price:</strong> $12.99 <del>$25.89</del></p>
+      <p>
+        <button>Order Now</button>
+        <button>Sign Up</button>
+      </p>
+    </section>
+
+
+    <section id="products">
+      <h3>Popular Products</h3>
+      <ul>
+        <li>Dark Roast Beans — $14.99</li>
+        <li>Morning Blend — $12.99</li>
+        <li>Mint Cappuccino — $16.50</li>
+        <li>Espresso Shot Pack — $9.99</li>
+      </ul>
+    </section>
+
+    <section id="reviews">
+      <h3>Customer Reviews</h3>
+      <blockquote>"Best coffee I ever tasted — smooth and sustainably sourced." — Amina H.</blockquote>
+      <blockquote>"Fast delivery and the mint cappuccino is a morning joy!" — Yusuf M.</blockquote>
+    </section>
+
+    <section id="about">
+      <h3>About Coffee Mate</h3>
+      <p>Small-batch roaster focusing on organic, ethically sourced beans. Our mission is mindful, delicious cups.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Coffee Mate</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
